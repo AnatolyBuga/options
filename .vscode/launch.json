@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python Debug: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Debug Scratch",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scratch",  // Replace with your module name
+            "justMyCode": false,
+            // "cwd": "${workspaceFolder}",   // Ensures working directory is set correctly
+            // "env": {                       // (Optional) Environment variables
+            //     "ENV_VAR_NAME": "value"
+            // },
+            // "args": [                      // (Optional) Arguments for your module
+            //     "--flag1", "value1"
+            // ]
+        }
+    ]
+}
